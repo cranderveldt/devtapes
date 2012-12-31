@@ -9,6 +9,7 @@ lib-cov
 *.psd
 *.idlk
 *.indd
+*.mp3
 
 .DS_Store
 
@@ -19,3 +20,4 @@ results
 node_modules
 npm-debug.log
 wp-config.php
+/wp-content/uploads/mixes
