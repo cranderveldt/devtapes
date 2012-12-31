@@ -1725,3 +1725,7 @@ img#wpstats {
 		margin-left: 3.57142857rem;
 	}
 }
+
+/* Extra styles */
+.entry-header, #site-navigation, #colophon { display: none; }
+.widget-area .widget h3 { margin-bottom: 5px; }
