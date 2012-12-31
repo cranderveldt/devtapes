@@ -47,7 +47,7 @@ if ($redirect)
   <section id="container" class="container-fluid">
     <header class="row-fluid">
       <div class="span7 logo">
-        <h1><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
+        <h1><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>">Devtapes</a></h1>
         <small><?php bloginfo('description'); ?></small>
       </div>
       <div class="span5 tape">

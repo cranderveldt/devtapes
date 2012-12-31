@@ -52,8 +52,8 @@
                 <div class="span12">
                     <p>
                         <span class="post-date">Posted on <?php the_time('j M, Y') ?></span>&nbsp;&bull;
-                        <span class="post-tags">Tags: <?php the_tags('', ' ',''); ?></span>&nbsp;&bull;
-                        <span class="post-cmts"><?php comments_popup_link(__('Post a Comment'), __('1 Comment'), __('% Comments'), 'commentslink', __('Comments off')); ?></span>
+                        <span class="post-tags">Tags: <?php the_tags('', ' ',''); ?></span>
+                        <span class="post-cmts" style="display: none;"><?php comments_popup_link(__('Post a Comment'), __('1 Comment'), __('% Comments'), 'commentslink', __('Comments off')); ?></span>
                         <?php edit_post_link(__('Edit'), ' &#183; ', ''); ?>
                     </p>
                 </div>

@@ -106,9 +106,7 @@ footer > div { padding: 0 20px; }
 #sidebar { display: none; }
 
 /* Responsive stuff */
-@media (max-width: 767px) { header h1 { font-size: 50px; }
-  header small { font-size: 12px; }
-  #content .hero-unit { border: 0; padding: 20px 0 0; }
+@media (max-width: 767px) { #content .hero-unit { border: 0; padding: 20px 0 0; }
   #content .hero-unit h1 { font-size: 30px; }
   #content .hero-unit:before, #content .hero-unit.after { display: none; }
   #content .row-fluid > div { margin-bottom: 20px; }
